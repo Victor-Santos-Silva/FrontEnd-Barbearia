@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Home"
+  title: "Le Barbier",
+  description: "O seu barbeiro online",
+  openGraph: {
+    title: "Le Barbier",
+    description: "O seu barbeiro online",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

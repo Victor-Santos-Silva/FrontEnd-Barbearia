@@ -11,7 +11,6 @@ export default function Header() {
                 alt="Logo Marca"
                 className="w-[200px] h-auto pl-3]"
             />
-
             {/* Links principais */}
             <div className="flex gap-10 mt-4 md:mt-0 ">
                 <Link href="/">Home</Link>

@@ -1,9 +1,9 @@
-import Footer from '@/components/Footer/footer'
-import Header from '@/components/Header/header'
+import Footer from '@/components/footer'
+import Header from '@/components/header'
 import Image from 'next/image'
 
 import banner from '@/../public/assets/banner.png'
-import SobreNos from '../../components/SobreNos/sobreNos'
+import SobreNos from '../../components/sobreNos'
 
 export default function Home () {
   return (

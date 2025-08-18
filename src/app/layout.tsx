@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+
+import { Anton } from "next/font/google";
+const anton = Anton({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-anton",
+});
+
 export const metadata: Metadata = {
   title: "Le Barbier",
   description: "O seu barbeiro online",
@@ -21,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body>
+      <body className={`${anton.variable} antialiased`}>
         {children}
       </body>
     </html>

@@ -43,7 +43,9 @@ export default function Login () {
             type='submit'
             className='text-[#CC1424] font-bold w-1/2 bg-white p-2 rounded-xl hover:bg-gray-100 cursor-pointer'
           >
-            LOGAR
+            <a href='/home' className='underline'>
+              LOGAR
+            </a>
           </button>
 
           <p className='text-white mt-4'>
@@ -59,7 +61,6 @@ export default function Login () {
               Clique aqui
             </a>
           </p>
-
         </form>
       </div>
 

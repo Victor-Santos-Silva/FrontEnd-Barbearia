@@ -127,7 +127,9 @@ export default function Cadastro () {
               type='submit'
               className='text-[#CC1424] font-bold w-1/2 bg-white p-2 rounded-xl hover:bg-gray-100 cursor-pointer'
             >
-              CADASTRAR
+              <a href='/login' className='underline'>
+                CADASTRAR
+              </a>
             </button>
           </div>
 

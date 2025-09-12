@@ -15,8 +15,8 @@ export default function Footer () {
       {/* Links principais */}
       <div className='flex gap-10 mt-4 md:mt-0 '>
         <Link href='/'>Home</Link>
-        {/* <Link href='/servicos'>Serviços</Link>
-        <Link href='/agendar'>Agendar</Link> */}
+        <Link href='/servicos'>Serviços</Link>
+        {/*<Link href='/agendar'>Agendar</Link> */}
       </div>
 
       <div className='hidden md:flex md:gap-10'>

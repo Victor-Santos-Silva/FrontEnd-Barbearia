@@ -6,12 +6,16 @@ export default function Header () {
   return (
     <header className='bg-[#002654] p-4 flex flex-col md:flex-row items-center justify-between text-white'>
       {/* Logo */}
-      <Image src={logo} alt='Logo Marca' className='w-[200px] h-auto pl-3]  hover:scale-105 transition' />
+      <Image
+        src={logo}
+        alt='Logo Marca'
+        className='w-[200px] h-auto pl-3]  hover:scale-105 transition'
+      />
       {/* Links principais */}
       <div className='flex gap-10 mt-4 md:mt-0 '>
         <Link href='/'>Home</Link>
-{/*         <Link href='/servicos'>Serviços</Link>
-        <Link href='/agendar'>Agendar</Link> */}
+        <Link href='/servicos'>Serviços</Link>
+        <Link href='/agendar'>Agendar</Link>
       </div>
 
       {/* Login e cadastro */}

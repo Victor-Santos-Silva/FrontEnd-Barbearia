@@ -6,20 +6,25 @@ export default function Header () {
   return (
     <header className='bg-[#002654] p-4 flex flex-col md:flex-row items-center justify-evenly text-white'>
       {/* Logo */}
-      <Image
-        src={logo}
-        alt='Logo Marca'
-        className='w-[200px] h-auto pl-3]  hover:scale-105 transition'
-      />
+      <Link href='/'>
+        <Image
+          src={logo}
+          alt='Logo Marca'
+          className='w-[200px] h-auto pl-3] hover:scale-105 transition'
+        />
+      </Link>
       {/* Links principais */}
       <div className='flex gap-10 mt-4 md:mt-0 '>
         <Link href='/'>Home</Link>
-        <Link href='/servicos'>Serviços</Link>
-        <Link href='https://www.instagram.com/joorginho23/' target='_blank'>Agendar</Link>
+        <Link href='/#servicos'>Serviços</Link>
+        <Link href='/#sobrenos'>Sobre Nós</Link>
+        <Link href='https://www.instagram.com/joorginho23/' target='_blank'>
+          Agendar
+        </Link>
       </div>
 
       {/* Login e cadastro */}
-     {/*  <div className='flex gap-10 mt-4 md:mt-0 pr-0 md:pr-12 '>
+      {/*  <div className='flex gap-10 mt-4 md:mt-0 pr-0 md:pr-12 '>
         <Link href='/login'>Login</Link>
         <Link href='/cadastro'>Cadastro</Link>
       </div> */}

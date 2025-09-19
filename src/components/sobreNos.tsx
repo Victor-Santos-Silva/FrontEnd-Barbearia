@@ -1,7 +1,7 @@
 import React from 'react'
 const SobreNos = () => {
   return (
-    <section className='flex flex-col items-center justify-center gap-8 px-4 py-8 md:flex-row md:justify-around md:px-8 '>
+    <section id='sobrenos' className='flex flex-col items-center justify-center gap-8 px-4 py-8 md:flex-row md:justify-around md:px-8 '>
       <div className='md:w-1/2 '>
         <h2 className='mb-4 text-center font-bold text-4xl text-[#CC1424] md:text-5xl '>
           Sobre Nós

@@ -6,7 +6,7 @@ export default function Card () {
   const contatoBarbeiro = 'https://www.instagram.com/joorginho23/'
 
   return (
-    <section className="bg-gradient-to-b from-[#001b40] to-[#002654] py-10">
+    <section id='servicos' className="bg-gradient-to-b from-[#001b40] to-[#002654] py-10">
       <h1 className="text-center text-red-600 font-extrabold text-5xl mb-10 tracking-wide">
         Nossos Serviços
       </h1>

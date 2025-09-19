@@ -20,7 +20,7 @@ export default function Footer () {
         <Link href='/'>Home</Link>
         <Link href='/#servicos'>Serviços</Link>
         <Link href='/#sobrenos'>Sobre Nós</Link>
-        <Link href='https://www.instagram.com/joorginho23/' target='_blank'>
+        <Link href='https://www.instagram.com/visantos_dev/' target='_blank'>
           Agendar
         </Link>
       </div>
@@ -31,7 +31,7 @@ export default function Footer () {
 
       {/* Login e cadastro */}
       <div>
-        <Link href='https://www.instagram.com/joorginho23/' target='_blank'>
+        <Link href='https://www.instagram.com/visantos_dev/' target='_blank'>
           <FaInstagram className='text-white w-10 h-10 hover:text-[#CC1424] hover:scale-110 hover:rotate-12 transition' />
         </Link>
       </div>

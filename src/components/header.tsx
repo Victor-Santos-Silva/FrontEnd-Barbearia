@@ -18,7 +18,7 @@ export default function Header () {
         <Link href='/'>Home</Link>
         <Link href='/#servicos'>Serviços</Link>
         <Link href='/#sobrenos'>Sobre Nós</Link>
-        <Link href='https://www.instagram.com/joorginho23/' target='_blank'>
+        <Link href='https://www.instagram.com/visantos_dev/' target='_blank'>
           Agendar
         </Link>
       </div>

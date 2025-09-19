@@ -3,7 +3,7 @@ import database from '@/data/database.json'
 import Link from 'next/link'
 
 export default function Card () {
-  const contatoBarbeiro = 'https://www.instagram.com/joorginho23/'
+  const contatoBarbeiro = 'https://www.instagram.com/visantos_dev/'
 
   return (
     <section id='servicos' className="bg-gradient-to-b from-[#001b40] to-[#002654] py-10">

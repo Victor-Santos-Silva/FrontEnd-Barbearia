@@ -1,4 +1,4 @@
-import Card from '@/components/card'
+import Card from '@/components/serviços'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
 

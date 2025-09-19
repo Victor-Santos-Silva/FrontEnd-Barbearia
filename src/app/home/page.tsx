@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 import banner from '@/../public/assets/banner.png'
 import SobreNos from '../../components/sobreNos'
+import Card from '@/components/serviços'
 
 export default function Home () {
   return (
@@ -11,6 +12,7 @@ export default function Home () {
       <Header />
       <Image src={banner} alt='Banner'/>
       <SobreNos />
+      <Card />
       <Footer />
     </section>
   )

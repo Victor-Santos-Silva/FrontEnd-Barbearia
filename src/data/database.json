@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Pompadour",
+        "description": "Clássico e elegante, esse corte mantém o topo mais longo e volumoso, penteado para trás com bastante textura e brilho. As laterais podem ser mais curtas ou levemente degradês, trazendo um visual sofisticado que nunca sai de moda.",
+        "image": "/assets/corte1.png"
+    },
+    {
+        "id": 2,
+        "title": "Buzz Cut",
+        "description": "Prático e cheio de atitude, é o famoso “cabelo raspado”. Ideal para quem prefere um visual limpo e de baixa manutenção. O comprimento é uniforme em toda a cabeça, destacando o rosto e os traços naturais.",
+        "image": "/assets/corte2.png"
+    },
+    {
+        "id": 3,
+        "title": "Undercut",
+        "description": "As laterais e a parte de trás são bem curtas ou raspadas, enquanto o topo permanece mais longo, permitindo diferentes finalizações, como liso, bagunçado ou com topete. Um corte ousado que combina estilo urbano e personalidade.",
+        "image": "/assets/corte3.png"
+    },
+    {
+        "id": 4,
+        "title": "Degradê Baixo (Low Fade)",
+        "description": "Um corte moderno e versátil, onde as laterais são raspadas de forma suave, começando bem próximo à orelha e subindo de maneira gradual. Combina com diversos estilos na parte superior, desde o cabelo mais curto até um topete bem alinhado.",
+        "image": "/assets/corte4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Caesar Cut",
+        "description": "Inspirado no estilo romano, é um corte curto e reto, com a franja levemente aparada para a frente. As laterais podem ser baixas ou com um leve degradê, criando um visual limpo, moderno e fácil de manter no dia a dia.",
+        "image": "/assets/corte1.png"
+    },
+    {
+        "id": 6,
+        "title": "Caesar Cut",
+        "description": "Inspirado no estilo romano, é um corte curto e reto, com a franja levemente aparada para a frente. As laterais podem ser baixas ou com um leve degradê, criando um visual limpo, moderno e fácil de manter no dia a dia.",
+        "image": "/assets/corte3.png"
+    },
+    {
+        "id": 7,
+        "title": "Undercut",
+        "description": "As laterais e a parte de trás são bem curtas ou raspadas, enquanto o topo permanece mais longo, permitindo diferentes finalizações, como liso, bagunçado ou com topete. Um corte ousado que combina estilo urbano e personalidade.",
+        "image": "/assets/corte3.png"
+    },
+    {
+        "id": 8,
+        "title": "Degradê Baixo (Low Fade)",
+        "description": "Um corte moderno e versátil, onde as laterais são raspadas de forma suave, começando bem próximo à orelha e subindo de maneira gradual. Combina com diversos estilos na parte superior, desde o cabelo mais curto até um topete bem alinhado.",
+        "image": "/assets/corte4.jpg"
+    }
+    
+]
